@@ -47,7 +47,7 @@ def plot_route(route, cities):
     plt.legend()
     plt.show()
 
-def abc_tsp(cities, num_bees=30, num_iterations=200, limit=20): #Inspired by ChatGPT (Feb 2025)
+def abc_tsp(cities, num_bees=30, num_iterations=50, limit=2): #Inspired by ChatGPT (Feb 2025)
     num_cities = len(cities)
     dist_matrix = calculate_distance_matrix(cities)  
     
