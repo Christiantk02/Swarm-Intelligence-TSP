@@ -8,7 +8,9 @@ To run the code, install the following Python packages:
 ```bash
 pip install numpy matplotlib geopy
 
-
+## References
+- ChatGPT-generated content for README structure and Markdown formatting.
+- Some parts of the Genetic Algorithm implementation were inspired by ChatGPT (Mar 2025) (Coment where relevant)
 
 
 
